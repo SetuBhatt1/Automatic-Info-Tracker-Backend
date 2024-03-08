@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 from datetime import timedelta
 from pathlib import Path
+import pymongo
+
+client = pymongo.MongoClient("mongodb+srv://mypro:setuanu123@cluster0.kyb2gaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
