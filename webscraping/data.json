@@ -1,0 +1,2095 @@
+{
+    "init": {
+        "sHash": "yY1bUqQg7wxlpF2mt7_H5",
+        "pghash": null,
+        "cache": 1,
+        "pagination": {
+            "continue": false,
+            "currentPage": 1
+        },
+        "topSlider": null,
+        "ishotel": "1",
+        "newbddesign": "1",
+        "bdtextdata": "",
+        "bdtextdatali": "",
+        "dealPos": -1,
+        "nationalCatid": "10253736",
+        "trendingFlag": "0",
+        "keyword": "Hostels For Women",
+        "keywordln": "Hostels For Women",
+        "count": 100,
+        "bdmsgtype": "2",
+        "bdcaptiontype": "4",
+        "catid": "",
+        "vpfs": "4194304-1",
+        "bdtext": "",
+        "bestDeal": "",
+        "bdData": {},
+        "bdPopUp": {
+            "show": 0,
+            "action": ""
+        },
+        "abData": {},
+        "bdtextorig": "",
+        "bdflag": 3,
+        "phpRestime": "144.127685546875",
+        "searchId": "2129fd78e86d6cbad28dfd41ed3fb126e43998e8da88b1d9959b3d5837d5e724",
+        "filterflag": "1",
+        "advdeal_pos": 0,
+        "dayoffset": 2,
+        "_search": "Hostels-For-Women",
+        "adwordpos": [],
+        "pcity": "Nadiad",
+        "b2bflg": 0,
+        "dlb2bflg": "0",
+        "enable_filter": 1,
+        "catSearchType": "Z",
+        "spincode": "999999",
+        "videocell": null,
+        "pname": "",
+        "pimg": "",
+        "pharmacyData": {
+            "posarr": []
+        },
+        "notRateable": 0,
+        "adworddocid": [],
+        "mapsnippet": {
+            "show": 0,
+            "pointers": [
+                [
+                    [
+                        "22.6842368",
+                        "72.8825042"
+                    ],
+                    [
+                        "22.6825797",
+                        "72.8788496"
+                    ],
+                    [
+                        "22.6832221",
+                        "72.8787322"
+                    ],
+                    [
+                        "22.6919036",
+                        "72.862842"
+                    ],
+                    [
+                        "22.6825797",
+                        "72.8788496"
+                    ],
+                    [
+                        "22.5589937",
+                        "72.9198028"
+                    ],
+                    [
+                        "22.5590558",
+                        "72.9203556"
+                    ],
+                    [
+                        "22.5581045",
+                        "72.9195898"
+                    ],
+                    [
+                        "22.5584045",
+                        "72.924640199722"
+                    ],
+                    [
+                        "22.5555354",
+                        "72.921887"
+                    ]
+                ]
+            ]
+        },
+        "viewflag": 1,
+        "viewchange": [
+            1,
+            0,
+            2
+        ],
+        "adnode": {
+            "txt": "Ad",
+            "txtclr": "#000000",
+            "bgclr": "#ffffff"
+        },
+        "mcoord": {
+            "mlat": "22.69643",
+            "mlong": "72.8614"
+        },
+        "compAvgStarjd": "4.0|$|349",
+        "fallback": {
+            "status": "1",
+            "rurl": "",
+            "rstatus": "200",
+            "search": "Hostels For Women"
+        },
+        "nextdocid": [
+            "9999PX268.X268.170929192113.R8D6",
+            "9999PX268.X268.180821035458.Z1U6",
+            "9999PX268.X268.170608152507.M7C6",
+            "9999PX268.X268.170922141858.G2M5",
+            "9999PX268.X268.180816220059.X4D9",
+            "9999P2692.2692.220606221918.W6J6",
+            "9999P2692.2692.181222192327.B7N4",
+            "9999P2692.2692.200703023722.A3E4",
+            "9999P2692.2692.160623210218.U5P1",
+            "9999P2692.2692.170608235142.B2B4",
+            "9999P2692.2692.170608175828.H8S2",
+            "9999P2692.2692.160123094859.S9M4",
+            "9999P2692.2692.160702144704.B3W7",
+            "9999P2692.2692.230718145009.B6F4",
+            "9999P2692.2692.220606182115.E6W6",
+            "9999P2692.2692.131226121555.C5S3",
+            "9999P2692.2692.201023233356.Q7K7",
+            "9999P2692.2692.220122204242.P2Y9",
+            "9999P2692.2692.190723060236.G4D4",
+            "9999P2692.2692.161212162150.T6G8",
+            "9999P2692.2692.220308223305.L2G4",
+            "9999P2692.2692.221109205327.Q4Z8",
+            "9999P2692.2692.200702230242.J9Y2",
+            "9999P2692.2692.201023232804.X4N1",
+            "9999P2692.2692.170925060806.H9G2",
+            "9999P2692.2692.230524113122.C7C3",
+            "9999P2692.2692.221202203403.V2Q1",
+            "9999P2692.2692.181127214809.Y6E9",
+            "9999PMULMUMSTDGA00034",
+            "9999P2692.2692.121225160527.Y7X2",
+            "9999P2692.2692.100622104352.C5Y3",
+            "9999P2692.2692.170630181531.T7M6",
+            "9999P2692.2692.140704193044.E7H5",
+            "9999P2692.2692.221202233457.P7H9",
+            "9999P2692.2692.150717221247.T3X7",
+            "9999P2692.2692.170925151703.E7J7",
+            "9999P2692.2692.110223111632.K9C2",
+            "9999P2692.2692.190607113749.F5E6",
+            "9999P2692.2692.200929213722.K6Y3",
+            "9999P2692.2692.180605034417.Q3B1",
+            "079PXX79.XX79.230905180223.A1L1",
+            "079PXX79.XX79.230614202235.X7E9",
+            "079PXX79.XX79.230826200910.F8K2",
+            "079PXX79.XX79.150727185215.X5I9",
+            "079PXX79.XX79.160629183201.U7V2",
+            "079PXX79.XX79.230726122023.I5A6",
+            "079PXX79.XX79.200307142541.G2Q1",
+            "079PXX79.XX79.220313233807.G1Q7",
+            "079PXX79.XX79.180216201545.D8K9",
+            "079PXX79.XX79.141220160115.X7J9",
+            "079PXX79.XX79.230703165128.Q6X5",
+            "079PXX79.XX79.221129004423.I2T2",
+            "079PXX79.XX79.220720125843.C2T2",
+            "079P251092",
+            "079PXX79.XX79.190220164002.V5Y9",
+            "079PXX79.XX79.190316141251.J3U9",
+            "079P251091",
+            "079PXX79.XX79.170906203818.N4F2",
+            "079PXX79.XX79.111116102213.L5Y2",
+            "079PXX79.XX79.220507170456.E4J3",
+            "079PXX79.XX79.160429121538.N9P8",
+            "079PXX79.XX79.180125190805.K8R3",
+            "079PXX79.XX79.171220113943.A2A4",
+            "079PXX79.XX79.200624210841.U7M5",
+            "079PXX79.XX79.131226114252.L8Q5",
+            "079PXX79.XX79.140423122813.H8Y3",
+            "079PXX79.XX79.150523125259.I5W5",
+            "079PXX79.XX79.180316150840.I5Q5",
+            "079PXX79.XX79.170208024222.E1B7",
+            "079PXX79.XX79.181228113325.U7R6",
+            "079PXX79.XX79.171102132901.S8M9",
+            "079PXX79.XX79.111206093056.R6L3",
+            "079PXX79.XX79.230121223246.Q6Q6",
+            "079PXX79.XX79.170913144024.C2Z6",
+            "079PXX79.XX79.140403160814.L1M1",
+            "079PXX79.XX79.171220115421.C8R8",
+            "079PXX79.XX79.131226115312.T1P3",
+            "079PXX79.XX79.130528092131.U3W6",
+            "079PXX79.XX79.220920213213.T7N5",
+            "079PXX79.XX79.240113132008.J8F7",
+            "079PXX79.XX79.210322154031.B9Z7",
+            "079PXX79.XX79.230122231006.Z4F9",
+            "079PXX79.XX79.230106212547.P4X7",
+            "079PXX79.XX79.220520212509.R2K2",
+            "079PXX79.XX79.181113122759.R7D4",
+            "079PXX79.XX79.220920222432.B2C8",
+            "079PXX79.XX79.231201162456.U5C9",
+            "079PXX79.XX79.230120014023.M6B3",
+            "079PXX79.XX79.210218151335.K1Z6",
+            "079PXX79.XX79.220610221222.T1C4",
+            "079PXX79.XX79.220607134750.K9Z7",
+            "079PXX79.XX79.220606120538.X9Z7",
+            "079PXX79.XX79.240207180500.G9T6",
+            "079PXX79.XX79.190112182014.T1B9",
+            "079PXX79.XX79.200109194233.W2V9",
+            "079PXX79.XX79.210121150515.A4Y5",
+            "079PXX79.XX79.190729141824.A4E2",
+            "079PXX79.XX79.220920180826.K6U8",
+            "0265P265STD2010716",
+            "079PXX79.XX79.101102093758.Z1P4"
+        ],
+        "columns": {
+            "docid": 0,
+            "name": 1,
+            "distance": 2,
+            "NewAddress": 3,
+            "lat": 4,
+            "lon": 5,
+            "paidStatus": 6,
+            "compRating": 7,
+            "verified": 8,
+            "rateThis": 9,
+            "mappointer": 10,
+            "opstring": 11,
+            "area": 12,
+            "opennow": 13,
+            "type": 14,
+            "VNumber": 15,
+            "totalReviews": 16,
+            "video": 17,
+            "city": 18,
+            "thumbnail": 19,
+            "totJdReviews": 20,
+            "favflag": 21,
+            "attr_data": 22,
+            "an": 23,
+            "shopfront": 24,
+            "ishotel": 25,
+            "vertical": 26,
+            "vertical_name": 27,
+            "discount_Offer": 28,
+            "vertical_data": 29,
+            "position_flag": 30,
+            "Jadoopic": 31,
+            "sharedt_url": 32,
+            "cancall": 33,
+            "wpnumber": 34,
+            "action_node": 35,
+            "idxno": 36,
+            "linefive": 37,
+            "newadd": 38,
+            "newaddcolor": 39,
+            "dimages": 40,
+            "viewchange": 41,
+            "photocnt": 42,
+            "pdg": 43,
+            "nameln": 44,
+            "NewAddressln": 45,
+            "address_flg": 46,
+            "ask_mobile": 47,
+            "hcatarr": 48,
+            "callalocation": 49,
+            "compRatingln": 50,
+            "catalog_flag": 51,
+            "jdpay": 52,
+            "ratecard": 53,
+            "ds": 54,
+            "inapp": 55,
+            "bd_params": 56,
+            "jtkr": 57,
+            "useshare": 58,
+            "tag": 59,
+            "event_data": 60,
+            "infoarr": 61,
+            "healthcare_flag": 62,
+            "quickInfoTags": 63,
+            "spTag": 64,
+            "rateColor": 65,
+            "dimages_tag": 66
+        },
+        "addword": {},
+        "breadcrum": [
+            {
+                "link": "https://www.justdial.com/Nadiad",
+                "name": "Nadiad"
+            },
+            {
+                "link": "https://www.justdial.com/Nadiad/Accommodation-Services/nct-11164154",
+                "name": "Accommodation Services in Nadiad"
+            },
+            {
+                "link": "https://www.justdial.com/Nadiad/Hostels/nct-10253730",
+                "name": "Hostels in Nadiad"
+            },
+            {
+                "link": "https://www.justdial.com/Nadiad/Hostels-For-Women/nct-10253736",
+                "name": "Hostels For Women in Nadiad"
+            },
+            {
+                "link": "https://www.justdial.com/Nadiad/Hostels-For-Women/nct-10253736?#listings",
+                "name": "5+ Listings"
+            }
+        ],
+        "ldJson": [],
+        "microdata": {},
+        "TxnButtons": {},
+        "verticalBanner": {},
+        "topCatbanner": [],
+        "commonEventData": {},
+        "healthcareFlag": 0,
+        "seoData": {
+            "title": "List of Top Ladies Hostels in Nadiad - Best Hostel for Women - Justdial",
+            "desc": "Ladies Hostels in Nadiad. Find ✓Women Hostel, ✓Girls Hostel, ✓Working Womens Hostel, ✓Hostels For Working Women in Nadiad. Get Phone Numbers, Address, Reviews, Photos, Maps for top Hostels For Women near me in Nadiad on Justdial.",
+            "key": "List of Hostels For Women in Nadiad, Reviews, Map, Address, Phone Number, Contact Number, local, popular Hostels For Women, Hostels For Women",
+            "isfreetext": 0,
+            "hot_cat_arr": {
+                "id": 10253730,
+                "nid": 10253730,
+                "name": "Hostels"
+            },
+            "area": null,
+            "link": "https://www.justdial.com/Nadiad/Hostels-For-Women/nct-10253736"
+        },
+        "seo": {
+            "title": "List of Top Ladies Hostels in Nadiad - Best Hostel for Women - Justdial",
+            "meta": [
+                {
+                    "name": "title",
+                    "content": "List of Top Ladies Hostels in Nadiad - Best Hostel for Women - Justdial"
+                },
+                {
+                    "name": "description",
+                    "content": "Ladies Hostels in Nadiad. Find ✓Women Hostel, ✓Girls Hostel, ✓Working Womens Hostel, ✓Hostels For Working Women in Nadiad. Get Phone Numbers, Address, Reviews, Photos, Maps for top Hostels For Women near me in Nadiad on Justdial."
+                },
+                {
+                    "name": "keywords",
+                    "content": "List of Hostels For Women in Nadiad, Reviews, Map, Address, Phone Number, Contact Number, local, popular Hostels For Women, Hostels For Women"
+                },
+                {
+                    "name": "theme-color",
+                    "content": "#25426E"
+                },
+                {
+                    "name": "msapplication-navbutton-color",
+                    "content": "#25426E"
+                },
+                {
+                    "name": "apple-mobile-web-app-status-bar-style",
+                    "content": "black-translucent"
+                },
+                {
+                    "property": "fb:app_id",
+                    "content": "119229938257087"
+                },
+                {
+                    "property": "og:type",
+                    "content": "Website"
+                },
+                {
+                    "property": "og:title",
+                    "content": "List of Top Ladies Hostels in Nadiad - Best Hostel for Women - Justdial"
+                },
+                {
+                    "property": "og:url",
+                    "content": "https://www.justdial.com/Nadiad/Hostels-For-Women/nct-10253736"
+                },
+                {
+                    "property": "og:image",
+                    "content": "https://images.jdmagicbox.com/webstatic/JD_LOGO_FB.gif"
+                },
+                {
+                    "property": "og:description",
+                    "content": "Ladies Hostels in Nadiad. Find ✓Women Hostel, ✓Girls Hostel, ✓Working Womens Hostel, ✓Hostels For Working Women in Nadiad. Get Phone Numbers, Address, Reviews, Photos, Maps for top Hostels For Women near me in Nadiad on Justdial."
+                },
+                {
+                    "property": "al:ios:app_name",
+                    "content": "Justdial"
+                },
+                {
+                    "property": "al:ios:url",
+                    "content": "justdial://Nadiad/Hostels-For-Women/nct-10253736"
+                },
+                {
+                    "property": "al:ios:app_store_id",
+                    "content": "624946027"
+                },
+                {
+                    "name": "apple-itunes-app",
+                    "content": "app-id=624946027, app-argument=https://www.justdial.com/Nadiad/Hostels-For-Women/nct-10253736"
+                }
+            ],
+            "link": [
+                {
+                    "rel": "next",
+                    "href": "https://www.justdial.com/Nadiad/Hostels-For-Women/nct-10253736/page-2"
+                },
+                {
+                    "rel": "alternate",
+                    "href": "android-app://com.justdial.search/http/t.justdial.com/Nadiad/Hostels-For-Women/nct-10253736"
+                },
+                {
+                    "rel": "amphtml",
+                    "href": "https://www.justdial.com/Nadiad/Hostels-For-Women/nct-10253736/amp"
+                },
+                {
+                    "rel": "canonical",
+                    "href": "https://www.justdial.com/Nadiad/Hostels-For-Women/nct-10253736"
+                }
+            ],
+            "error": {
+                "status": 0,
+                "msg": ""
+            }
+        },
+        "totalDocCnt": 0,
+        "floatingbutton": 0,
+        "floatingbuttonnew": {},
+        "floatingBd": {},
+        "freetextBanner": {
+            "image": "",
+            "text": "",
+            "btn_data": []
+        },
+        "vendorcnt": 0,
+        "catPopRevs": {
+            "9999P2692.2692.181222192327.B7N4": {
+                "name": "dipika",
+                "rating": "4.5",
+                "review": "I am already staying in this hostel.best hostel in patna",
+                "review_date": "2022-03-13 11:33:50",
+                "res_idx": 6
+            },
+            "9999P2692.2692.170608235142.B2B4": {
+                "name": "MUNNABHAI BHARAWAD",
+                "rating": "5.0",
+                "review": "Such great facilities and services are provided here. very nice and good experience for students who are living here.",
+                "review_date": "2017-10-02 12:34:55",
+                "res_idx": 9
+            }
+        },
+        "viewFlag": 1,
+        "headerText": "5 Results for your search",
+        "h1": "Top Hostels For Women in Nadiad",
+        "helpfulData": {
+            "pos": 11,
+            "header": "How helpful were these results?",
+            "desc": "Share feedback"
+        },
+        "top_cat_banner_pos": -1,
+        "tabs": [],
+        "dsmap": 1,
+        "btnProps": {
+            "call_btn": {
+                "color": "#fff",
+                "backgroundColor": "#0076D7",
+                "borderColor": "#0076D7",
+                "boxShadow": ""
+            },
+            "bd_btn": {
+                "color": "#0076D7",
+                "backgroundColor": "#fff",
+                "borderColor": "#0076D7",
+                "boxShadow": ""
+            },
+            "call_icon": "https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot_w/resultcallicon.svg",
+            "bd_icon": "https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot_w/resultchat_27nov.svg"
+        },
+        "displayImgCnt": 4,
+        "infoVideos": {},
+        "status": {
+            "c": 1,
+            "msg": "parsed successfully"
+        },
+        "show_focus_nudge": 1
+    },
+    "main": {
+        "columns": {
+            "docid": 0,
+            "name": 1,
+            "distance": 2,
+            "NewAddress": 3,
+            "lat": 4,
+            "lon": 5,
+            "paidStatus": 6,
+            "compRating": 7,
+            "verified": 8,
+            "rateThis": 9,
+            "mappointer": 10,
+            "opstring": 11,
+            "area": 12,
+            "opennow": 13,
+            "type": 14,
+            "VNumber": 15,
+            "totalReviews": 16,
+            "video": 17,
+            "city": 18,
+            "thumbnail": 19,
+            "totJdReviews": 20,
+            "favflag": 21,
+            "attr_data": 22,
+            "an": 23,
+            "shopfront": 24,
+            "ishotel": 25,
+            "vertical": 26,
+            "vertical_name": 27,
+            "discount_Offer": 28,
+            "vertical_data": 29,
+            "position_flag": 30,
+            "Jadoopic": 31,
+            "sharedt_url": 32,
+            "cancall": 33,
+            "wpnumber": 34,
+            "action_node": 35,
+            "idxno": 36,
+            "linefive": 37,
+            "newadd": 38,
+            "newaddcolor": 39,
+            "dimages": 40,
+            "viewchange": 41,
+            "photocnt": 42,
+            "pdg": 43,
+            "nameln": 44,
+            "NewAddressln": 45,
+            "address_flg": 46,
+            "ask_mobile": 47,
+            "hcatarr": 48,
+            "callalocation": 49,
+            "compRatingln": 50,
+            "catalog_flag": 51,
+            "jdpay": 52,
+            "ratecard": 53,
+            "ds": 54,
+            "inapp": 55,
+            "bd_params": 56,
+            "jtkr": 57,
+            "useshare": 58,
+            "tag": 59,
+            "event_data": 60,
+            "infoarr": 61,
+            "healthcare_flag": 62,
+            "quickInfoTags": 63,
+            "spTag": 64,
+            "rateColor": 65,
+            "dimages_tag": 66
+        },
+        "data": [
+            {
+                "0": "9999PX268.X268.170929192113.R8D6",
+                "1": "Krishna Hostel",
+                "2": "",
+                "3": " Akshar Township",
+                "4": 22.6842368,
+                "5": 72.8825042,
+                "6": "0",
+                "7": 4.1,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "Samosa Lane Akshar Township",
+                "13": "1",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "217",
+                "17": "",
+                "18": "Nadiad",
+                "19": "https://content.jdmagicbox.com/comp/nadiad/d6/9999px268.x268.170929192113.r8d6/catalogue/krishna-hostel-nadiad-hostels-cl45q4s98p-250.jpg",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-99EMM2UIYIQ",
+                "33": 1,
+                "35": "",
+                "36": 1,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "44_IhZeOOP1wiX3YCcWug",
+                        "i": "https://content.jdmagicbox.com/comp/nadiad/d6/9999px268.x268.170929192113.r8d6/catalogue/krishna-hostel-nadiad-hostels-cl45q4s98p-250.jpg"
+                    },
+                    {
+                        "uqKey": "yJYbmEGbQ5EQ_P0BsJv03",
+                        "i": "https://content.jdmagicbox.com/comp/nadiad/d6/9999px268.x268.170929192113.r8d6/catalogue/krishna-hostel-nadiad-hostels-x087ijqcy8-250.jpg"
+                    },
+                    {
+                        "uqKey": "mwzCN37GLdfQ20OL8d7_C",
+                        "i": "https://content.jdmagicbox.com/comp/nadiad/d6/9999px268.x268.170929192113.r8d6/catalogue/krishna-hostel-nadiad-hostels-ez51luzyda-250.jpg"
+                    },
+                    {
+                        "uqKey": "IyaKRLxjnom9bCpOcpPU1",
+                        "i": "https://content.jdmagicbox.com/comp/nadiad/d6/9999px268.x268.170929192113.r8d6/catalogue/krishna-hostel-nadiad-hostels-maa4pzwafl-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 5,
+                "43": "",
+                "44": "Krishna Hostel",
+                "45": " Akshar Township",
+                "47": 1,
+                "48": {
+                    "id": 10253730,
+                    "nid": 10253730,
+                    "name": "Hostels"
+                },
+                "49": "LKYs6nAeoHi8YTcKbLKL9h%2BJevVTXVVOOcUtxOvP4Ji1%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "k85VzytkjtCxC6ffYdqqTt%2F2GSq9C4zLNEQcTQt1Ntw%3D",
+                "58": 0,
+                "59": [
+                    {
+                        "uqkey": "DGNa58FEmYR-9oKnLj_U1",
+                        "tag_name": "Top rated",
+                        "bg_colour": "#ffe0db",
+                        "txt_colour": "#75312e",
+                        "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/toprated_3x.png?width=74"
+                    }
+                ],
+                "60": {
+                    "cname": "Krishna Hostel",
+                    "docid": "9999PX268.X268.170929192113.R8D6",
+                    "rating": "4.1",
+                    "rating_cnt": "217",
+                    "city": "Nadiad",
+                    "dcity": "Nadiad",
+                    "area": "Akshar Township",
+                    "pin": "387001",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 1,
+                    "tag": "Most searched,Top rated",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 2.56,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": {
+                    "tag_name": "Most searched",
+                    "bg_colour": "#c8ead1",
+                    "txt_colour": "#1b553d",
+                    "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/topsearch_3x.png?width=82"
+                },
+                "65": "#007A0C",
+                "66": [
+                    "cl45q4s98p",
+                    "x087ijqcy8",
+                    "ez51luzyda",
+                    "maa4pzwafl",
+                    "lo246a0l6q",
+                    "ve314fltx1",
+                    "2mmrg5lhu2",
+                    "7fh7lqm748"
+                ],
+                "uqKey": "WtULsrzqdv9BfKe4Ivgq1"
+            },
+            {
+                "0": "9999PX268.X268.180821035458.Z1U6",
+                "1": "Vrunda Girl's Hostel",
+                "2": "",
+                "3": "Opposite Aryuvedic CollegeNext Ddit College Campus Near Dharmsindh Desai University Nadiad H O",
+                "4": 22.6825797,
+                "5": 72.8788496,
+                "6": "0",
+                "7": 4.1,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "College road Nadiad H O",
+                "13": "1",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "59",
+                "17": "",
+                "18": "Nadiad",
+                "19": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-4-250.jpg",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-99MAIMMMAQU",
+                "33": 1,
+                "35": "",
+                "36": 2,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "HPfO5va37yMyRiq8sVjV5",
+                        "i": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-4-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 0,
+                "43": "",
+                "44": "Vrunda Girl's Hostel",
+                "45": "Opposite Aryuvedic CollegeNext Ddit College Campus Near Dharmsindh Desai University Nadiad H O",
+                "47": 1,
+                "48": {
+                    "id": 10253736,
+                    "nid": 10253736,
+                    "name": "Hostels For Women"
+                },
+                "49": "LKYs6nAeoHi8YTcKbLKL9ldgr3HgL%2FdTb%2Fv2zVIqx0i1%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "C8i7G7XFhenCsFyLPT4boAMSJAQkwMjWndjtzHUmDBM%3D",
+                "58": 0,
+                "59": [
+                    {
+                        "uqkey": "UQPkzKHnAZO6RBlyjvaLD",
+                        "tag_name": "Trending",
+                        "bg_colour": "#FBDBC6",
+                        "txt_colour": "#773620",
+                        "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/trending_3x.png?width=70"
+                    }
+                ],
+                "60": {
+                    "cname": "Vrunda Girl's Hostel",
+                    "docid": "9999PX268.X268.180821035458.Z1U6",
+                    "rating": "4.1",
+                    "rating_cnt": "59",
+                    "city": "Nadiad",
+                    "dcity": "Nadiad",
+                    "area": "Nadiad H O",
+                    "pin": "387001",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 2,
+                    "tag": "Top rated,Trending",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 2.36,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": {
+                    "tag_name": "Top rated",
+                    "bg_colour": "#ffe0db",
+                    "txt_colour": "#75312e",
+                    "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/toprated_3x.png?width=74"
+                },
+                "65": "#007A0C",
+                "66": [
+                    "4"
+                ],
+                "uqKey": "-DzMVFkr8OaTbTPXe6eQM"
+            },
+            {
+                "0": "9999PX268.X268.170608152507.M7C6",
+                "1": "Bansri Girl's Hostel",
+                "2": "",
+                "3": "Opposite Ayurvedic College Akshar Township",
+                "4": 22.6832221,
+                "5": 72.8787322,
+                "6": "0",
+                "7": 3.6,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "College Akshar Township",
+                "13": "1",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "65",
+                "17": "",
+                "18": "Nadiad",
+                "19": "https://content.jdmagicbox.com/comp/def_content/estate_agents_for_residence/default-estate-agents-for-residence-3-250.jpg",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-99MI22MU2UU",
+                "33": 1,
+                "35": "",
+                "36": 3,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "-M44DRygzvIqI7xdOzb1X",
+                        "i": "https://content.jdmagicbox.com/comp/def_content/estate_agents_for_residence/default-estate-agents-for-residence-3-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 0,
+                "43": "",
+                "44": "Bansri Girl's Hostel",
+                "45": "Opposite Ayurvedic College Akshar Township",
+                "47": 1,
+                "48": {
+                    "id": 10253730,
+                    "nid": 10253730,
+                    "name": "Hostels"
+                },
+                "49": "LKYs6nAeoHi8YTcKbLKL9sM5kaNKJGG%2Fid3A9PZYvJ21%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "Lx%2BZqYWC8dMJ3A2dMhBpHtDZWtfE79BLjKKX12%2Fm0mM%3D",
+                "58": 0,
+                "59": [],
+                "60": {
+                    "cname": "Bansri Girl's Hostel",
+                    "docid": "9999PX268.X268.170608152507.M7C6",
+                    "rating": "3.6",
+                    "rating_cnt": "65",
+                    "city": "Nadiad",
+                    "dcity": "Nadiad",
+                    "area": "Akshar Township",
+                    "pin": "387001",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 3,
+                    "tag": "Trending",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 2.31,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": {
+                    "tag_name": "Trending",
+                    "bg_colour": "#FBDBC6",
+                    "txt_colour": "#773620",
+                    "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/trending_3x.png?width=70"
+                },
+                "65": "#009A18",
+                "66": [
+                    "3"
+                ],
+                "uqKey": "IKUCosHZk8P06RCRSUV7a"
+            },
+            {
+                "0": "9999PX268.X268.170922141858.G2M5",
+                "1": "Vinayaka Girls Hostel",
+                "2": "",
+                "3": " Dumral Bazar",
+                "4": 22.6919036,
+                "5": 72.862842,
+                "6": "0",
+                "7": 3,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "Dp Desai Road Dumral Bazar",
+                "13": "",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "7",
+                "17": "",
+                "18": "Nadiad",
+                "19": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-2-250.jpg",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-992QM622EIY",
+                "33": 1,
+                "35": "",
+                "36": 4,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "4i46CrwjhEk_MVKLrxAZN",
+                        "i": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-2-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 0,
+                "43": "",
+                "44": "Vinayaka Girls Hostel",
+                "45": " Dumral Bazar",
+                "47": 1,
+                "48": {
+                    "id": 10253730,
+                    "nid": 10253730,
+                    "name": "Hostels"
+                },
+                "49": "LKYs6nAeoHi8YTcKbLKL9hCV%2FZti9%2BOG4ZAHnNbj0NG1%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "8EzODef8mwtZm5GbibpPgQvigzP38dnCPh9L9JbdU%2BA%3D",
+                "58": 0,
+                "59": [],
+                "60": {
+                    "cname": "Vinayaka Girls Hostel",
+                    "docid": "9999PX268.X268.170922141858.G2M5",
+                    "rating": "3",
+                    "rating_cnt": "7",
+                    "city": "Nadiad",
+                    "dcity": "Nadiad",
+                    "area": "Dumral Bazar",
+                    "pin": "387001",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 4,
+                    "tag": "",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 0.53,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": [],
+                "65": "#009A18",
+                "66": [
+                    "2"
+                ],
+                "uqKey": "EgMFYHvjBvwCYEF9ogAbN"
+            },
+            {
+                "0": "9999PX268.X268.180816220059.X4D9",
+                "1": "Vrunda Girl's Hostel",
+                "2": "",
+                "3": "Opposite Aryuvedic CollegeNext Ddit College Campus Desai Vago",
+                "4": 22.6825797,
+                "5": 72.8788496,
+                "6": "0",
+                "7": 5,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "Road Desai Vago",
+                "13": "",
+                "14": "",
+                "15": {
+                    "cancall": 0,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "1",
+                "17": "",
+                "18": "Nadiad",
+                "19": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-0-250.jpg",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 0,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-992IM2YEQ2E",
+                "33": 0,
+                "35": "",
+                "36": 5,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "4Dbr8eWUiSK-27vv789HT",
+                        "i": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-0-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 0,
+                "43": "",
+                "44": "Vrunda Girl's Hostel",
+                "45": "Opposite Aryuvedic CollegeNext Ddit College Campus Desai Vago",
+                "47": 0,
+                "48": {
+                    "id": 10253730,
+                    "nid": 10253730,
+                    "name": "Hostels"
+                },
+                "49": "",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "fXLTp6rbbjzGc7CmEr1KSgMSJAQkwMjWndjtzHUmDBM%3D",
+                "58": 0,
+                "59": [],
+                "60": {
+                    "cname": "Vrunda Girl's Hostel",
+                    "docid": "9999PX268.X268.180816220059.X4D9",
+                    "rating": "5",
+                    "rating_cnt": "1",
+                    "city": "Nadiad",
+                    "dcity": "Nadiad",
+                    "area": "Desai Vago",
+                    "pin": "387001",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 5,
+                    "tag": "",
+                    "cta_name": "",
+                    "call_cta": "0",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 2.36,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": [],
+                "65": "#007A0C",
+                "66": [
+                    "0"
+                ],
+                "uqKey": "atnLjV9O0i7_Z8Yt4OCNp"
+            },
+            {
+                "0": "9999P2692.2692.220606221918.W6J6",
+                "1": "Gcet Girl's Hostel",
+                "2": "",
+                "3": " Vallabh Vidyanagar",
+                "4": 22.5589937,
+                "5": 72.9198028,
+                "6": "0",
+                "7": 3.7,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "Anand,Vallabh Vidyanagar",
+                "13": "1",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "34",
+                "17": "",
+                "18": "anand",
+                "19": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-6-250.jpg",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-99LDPFNVPRR",
+                "33": 1,
+                "35": "",
+                "36": 6,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "lK3PNk_FLI5MR9lcEBSGb",
+                        "i": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-6-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 0,
+                "43": "",
+                "44": "Gcet Girl's Hostel",
+                "45": " Vallabh Vidyanagar",
+                "47": 1,
+                "48": {
+                    "id": 10253730,
+                    "nid": 10253730,
+                    "name": "Hostels"
+                },
+                "49": "jBPQCPlGelL2wNMQ85t673ZJceEFM2yXcxf5zoREssy1%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "VwruyUDEB2kUFtsViiqrP0d%2FsdDIO8c0xfZDOZ6he6M%3D",
+                "58": 0,
+                "59": [],
+                "60": {
+                    "cname": "Gcet Girl's Hostel",
+                    "docid": "9999P2692.2692.220606221918.W6J6",
+                    "rating": "3.7",
+                    "rating_cnt": "34",
+                    "city": "Anand",
+                    "dcity": "anand",
+                    "area": "Vallabh Vidyanagar",
+                    "pin": "388120",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 6,
+                    "tag": "",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 16.415770757290385,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": [],
+                "65": "#009A18",
+                "66": [
+                    "6"
+                ],
+                "uqKey": "on6W3GyvrMpdbgE2p8-zB"
+            },
+            {
+                "0": "9999P2692.2692.181222192327.B7N4",
+                "1": "Sweet Home Girls Hostel",
+                "2": "",
+                "3": "Opposite Gcet Engineering College Near Bakrol Gate Vallabh Vidyanagar",
+                "4": 22.5590558,
+                "5": 72.9203556,
+                "6": "0",
+                "7": 4.5,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "Anand,Vallabh Vidyanagar",
+                "13": "1",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "41",
+                "17": "",
+                "18": "Anand",
+                "19": "https://content.jdmagicbox.com/comp/anand/n4/9999p2692.2692.181222192327.b7n4/catalogue/sweet-home-girls-hostel-vallabh-vidyanagar-anand-hostels-jp1vuqn5i4-250.jpg?clr=#502d16",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-99MEI2UAEQ6",
+                "33": 1,
+                "35": "",
+                "36": 7,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "4q9OW9I326mjQfRTzvcnt",
+                        "i": "https://content.jdmagicbox.com/comp/anand/n4/9999p2692.2692.181222192327.b7n4/catalogue/sweet-home-girls-hostel-vallabh-vidyanagar-anand-hostels-jp1vuqn5i4-250.jpg"
+                    },
+                    {
+                        "uqKey": "40LQQ56kHYlS7HcEO-xj1",
+                        "i": "https://content.jdmagicbox.com/comp/anand/n4/9999p2692.2692.181222192327.b7n4/catalogue/sweet-home-girls-hostel-vallabh-vidyanagar-anand-hostels-bde4px0ewx-250.jpg"
+                    },
+                    {
+                        "uqKey": "aLV6-IAmpTFF457SIPJ51",
+                        "i": "https://content.jdmagicbox.com/comp/anand/n4/9999p2692.2692.181222192327.b7n4/catalogue/sweet-home-girls-hostel-vallabh-vidyanagar-anand-hostels-0qq5x0n860-250.jpg"
+                    },
+                    {
+                        "uqKey": "dQDDACE6_qt6EdvJMHB73",
+                        "i": "https://content.jdmagicbox.com/comp/anand/n4/9999p2692.2692.181222192327.b7n4/catalogue/sweet-home-girls-hostel-vallabh-vidyanagar-anand-hostels-hjoj1f65aa-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 16,
+                "43": "",
+                "44": "Sweet Home Girls Hostel",
+                "45": "Opposite Gcet Engineering College Near Bakrol Gate Vallabh Vidyanagar",
+                "47": 1,
+                "48": {
+                    "id": 10253730,
+                    "nid": 10253730,
+                    "name": "Hostels"
+                },
+                "49": "7t%2BDImRK5MqVfgXjFZ7zz3LQ4f3pitDX98F79prR6l61%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "TquVHlgUltfQa6%2BT%2FvRAZJmUl73nzuOP90xSHWShiNQ%3D",
+                "58": 0,
+                "59": [],
+                "60": {
+                    "cname": "Sweet Home Girls Hostel",
+                    "docid": "9999P2692.2692.181222192327.B7N4",
+                    "rating": "4.5",
+                    "rating_cnt": "41",
+                    "city": "Anand",
+                    "dcity": "Anand",
+                    "area": "Vallabh Vidyanagar",
+                    "pin": "388120",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 7,
+                    "tag": "Trending",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 16.430151023997777,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": {
+                    "tag_name": "Trending",
+                    "bg_colour": "#FBDBC6",
+                    "txt_colour": "#773620",
+                    "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/trending_3x.png?width=70"
+                },
+                "65": "#007A0C",
+                "66": [
+                    "jp1vuqn5i4",
+                    "bde4px0ewx",
+                    "0qq5x0n860",
+                    "hjoj1f65aa",
+                    "fwqxzz2g7e",
+                    "yg0tc0l28n",
+                    "0gtukvoceb",
+                    "0mmllzjzzb"
+                ],
+                "uqKey": "bayKEKdGJIiCJT1a50HO-"
+            },
+            {
+                "0": "9999P2692.2692.200703023722.A3E4",
+                "1": "Shree Jalaram Lohana Kanya Chatralaya",
+                "2": "",
+                "3": " Vallabh Vidyanagar",
+                "4": 22.5581045,
+                "5": 72.9195898,
+                "6": "0",
+                "7": 4.5,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "Anand,Vallabh Vidyanagar",
+                "13": "1",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "81",
+                "17": "",
+                "18": "anand",
+                "19": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-7-250.jpg",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-99VGDHIV9TH",
+                "33": 1,
+                "35": "",
+                "36": 8,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "iRB2AWPRlk1jb6WSqAmbO",
+                        "i": "https://content.jdmagicbox.com/comp/def_content/hostels_for_women/default-hostels-for-women-7-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 0,
+                "43": "",
+                "44": "Shree Jalaram Lohana Kanya Chatralaya",
+                "45": " Vallabh Vidyanagar",
+                "47": 1,
+                "48": {
+                    "id": 10253730,
+                    "nid": 10253730,
+                    "name": "Hostels"
+                },
+                "49": "jBPQCPlGelL2wNMQ85t674EXXqcOOGCib6DSZKBY8B%2B1%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "HLvdvuPWQIbJz%2FtTYv5cxFg1M3h6PKkO47NHb4SpuJI%3D",
+                "58": 0,
+                "59": [
+                    {
+                        "uqkey": "zgMWqkHFI-2gKS-_mSghJ",
+                        "tag_name": "Top rated",
+                        "bg_colour": "#ffe0db",
+                        "txt_colour": "#75312e",
+                        "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/toprated_3x.png?width=74"
+                    }
+                ],
+                "60": {
+                    "cname": "Shree Jalaram Lohana Kanya Chatralaya",
+                    "docid": "9999P2692.2692.200703023722.A3E4",
+                    "rating": "4.5",
+                    "rating_cnt": "81",
+                    "city": "Anand",
+                    "dcity": "anand",
+                    "area": "Vallabh Vidyanagar",
+                    "pin": "388120",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 8,
+                    "tag": "Popular,Top rated",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 16.49993576640641,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": {
+                    "tag_name": "Popular",
+                    "bg_colour": "#BCEAE8",
+                    "txt_colour": "#1E5957",
+                    "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/popular_3x.png?width=64"
+                },
+                "65": "#007A0C",
+                "66": [
+                    "7"
+                ],
+                "uqKey": "Or2PUsWl7Q7gZoTF4FaoA"
+            },
+            {
+                "0": "9999P2692.2692.160623210218.U5P1",
+                "1": "Moms Girls Residency",
+                "2": "",
+                "3": "Opposite Ncc Office Behind Bvm College Vallabh Vidyanagar",
+                "4": 22.5584045,
+                "5": 72.924640199722,
+                "6": "0",
+                "7": 5,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "Anand,Vallabh Vidyanagar",
+                "13": "1",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "5",
+                "17": "",
+                "18": "Anand",
+                "19": "https://content.jdmagicbox.com/comp/anand/p1/9999p2692.2692.160623210218.u5p1/catalogue/moms-girls-residency-vallabh-vidyanagar-anand-hostel-for-girl-students-5v1s26uohn-250.jpg",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-99EQMMYA6MY",
+                "33": 1,
+                "35": "",
+                "36": 9,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "MifIi-_GVlkZJru9D4W1a",
+                        "i": "https://content.jdmagicbox.com/comp/anand/p1/9999p2692.2692.160623210218.u5p1/catalogue/moms-girls-residency-vallabh-vidyanagar-anand-hostel-for-girl-students-5v1s26uohn-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 0,
+                "43": "",
+                "44": "Moms Girls Residency",
+                "45": "Opposite Ncc Office Behind Bvm College Vallabh Vidyanagar",
+                "47": 1,
+                "48": {
+                    "id": 10852702,
+                    "nid": 10852702,
+                    "name": "Hostel For Girl Students"
+                },
+                "49": "7t%2BDImRK5MqVfgXjFZ7zzzPkPwQJviglhG4QjoXRyt61%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "vofsJ%2FcmtueIQZ4TbAe3%2Byq5ChT0t7jKF%2FRQI7u6LBI%3D",
+                "58": 0,
+                "59": [],
+                "60": {
+                    "cname": "Moms Girls Residency",
+                    "docid": "9999P2692.2692.160623210218.U5P1",
+                    "rating": "5",
+                    "rating_cnt": "5",
+                    "city": "Anand",
+                    "dcity": "Anand",
+                    "area": "Vallabh Vidyanagar",
+                    "pin": "388120",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 9,
+                    "tag": "Trending",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 16.663825408112405,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": {
+                    "tag_name": "Trending",
+                    "bg_colour": "#FBDBC6",
+                    "txt_colour": "#773620",
+                    "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/trending_3x.png?width=70"
+                },
+                "65": "#007A0C",
+                "66": [
+                    "5v1s26uohn"
+                ],
+                "uqKey": "0q8fTw0V22iPBVIycMU09"
+            },
+            {
+                "0": "9999P2692.2692.170608235142.B2B4",
+                "1": "Ideal Hostel",
+                "2": "",
+                "3": " Vallabh Vidyanagar",
+                "4": 22.5555354,
+                "5": 72.921887,
+                "6": "0",
+                "7": 4.1,
+                "8": "",
+                "9": "1",
+                "10": "1",
+                "11": {
+                    "status": "",
+                    "timing": "",
+                    "statuscolor": "#009631"
+                },
+                "12": "Anand,Vallabh Vidyanagar",
+                "13": "1",
+                "14": "",
+                "15": {
+                    "cancall": 1,
+                    "list": [],
+                    "vnumber": ""
+                },
+                "16": "82",
+                "17": "",
+                "18": "Anand",
+                "19": "https://content.jdmagicbox.com/comp/anand/b4/9999p2692.2692.170608235142.b2b4/catalogue/ideal-hostel-anand-1lsyeqk1fk-250.jpg?clr=#000066",
+                "21": "0",
+                "22": {
+                    "node1": "",
+                    "node2": "",
+                    "node3": [
+                        "",
+                        0,
+                        0,
+                        ""
+                    ],
+                    "node1color": []
+                },
+                "25": "1",
+                "28": "",
+                "29": {
+                    "multplBtn": 0,
+                    "callBtn": {
+                        "show": 1,
+                        "btnTxt": "Call Now"
+                    },
+                    "bdbtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "bdtoabd": 0,
+                        "show_abd_popup": 0,
+                        "btnLi": ""
+                    },
+                    "verticalBtn": {
+                        "show": 0,
+                        "btnTxt": "",
+                        "btnUrl": "",
+                        "tp": "",
+                        "inapp": "",
+                        "li": "",
+                        "wpChat": 0,
+                        "buttonIcon": ""
+                    }
+                },
+                "32": "https://www.justdial.com/DT-99M22E6QMI2",
+                "33": 1,
+                "35": "",
+                "36": 10,
+                "37": "",
+                "40": [
+                    {
+                        "uqKey": "NSF6YyudCLvUjWvwJnwf4",
+                        "i": "https://content.jdmagicbox.com/comp/anand/b4/9999p2692.2692.170608235142.b2b4/catalogue/ideal-hostel-anand-1lsyeqk1fk-250.jpg"
+                    },
+                    {
+                        "uqKey": "eWQqbzLt0kg-wNS7fEWdM",
+                        "i": "https://content.jdmagicbox.com/comp/anand/b4/9999p2692.2692.170608235142.b2b4/catalogue/ideal-hostel-vallabh-vidyanagar-anand-hostels-for-women-cb4hr-250.jpg"
+                    },
+                    {
+                        "uqKey": "Cg3Lk1vJLAl36o5ph09vt",
+                        "i": "https://content.jdmagicbox.com/comp/anand/b4/9999p2692.2692.170608235142.b2b4/catalogue/ideal-hostel-vallabh-vidyanagar-anand-hostels-for-women-kxnsw7-250.jpg"
+                    }
+                ],
+                "41": [
+                    0,
+                    2,
+                    0
+                ],
+                "42": 0,
+                "43": "",
+                "44": "Ideal Hostel",
+                "45": " Vallabh Vidyanagar",
+                "47": 1,
+                "48": {
+                    "id": 10253736,
+                    "nid": 10253736,
+                    "name": "Hostels For Women"
+                },
+                "49": "7t%2BDImRK5MqVfgXjFZ7zz%2BtV9%2BkPs9CYk%2FcT8It9dU%2B1%2BAGSxtgI8Z80iwhieaQn",
+                "51": "",
+                "52": {},
+                "53": {},
+                "54": "0",
+                "55": 1,
+                "57": "rGGX2cCBEKhAuTufZ7GUpierjyPvwiTm8mWIS73Dfr8%3D",
+                "58": 0,
+                "59": [
+                    {
+                        "uqkey": "B4ifOF0AVk1C29n4f2OIt",
+                        "tag_name": "Trending",
+                        "bg_colour": "#FBDBC6",
+                        "txt_colour": "#773620",
+                        "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/trending_3x.png?width=70"
+                    }
+                ],
+                "60": {
+                    "cname": "Ideal Hostel",
+                    "docid": "9999P2692.2692.170608235142.B2B4",
+                    "rating": "4.1",
+                    "rating_cnt": "82",
+                    "city": "Anand",
+                    "dcity": "Anand",
+                    "area": "Vallabh Vidyanagar",
+                    "pin": "388120",
+                    "ds": "0",
+                    "pdg": "",
+                    "paid": 0,
+                    "jd_verified": "",
+                    "guarantee": "",
+                    "trust": "0",
+                    "verified": "0",
+                    "pos": 10,
+                    "tag": "Top rated,Trending",
+                    "cta_name": "",
+                    "call_cta": "2",
+                    "isb2b": "0",
+                    "miscellaneous_flag": "8",
+                    "distance": "",
+                    "core_distance": 16.85200219550928,
+                    "bi_lang": "",
+                    "filter_values": null,
+                    "search_type": "P",
+                    "frs": 1
+                },
+                "61": [],
+                "63": [],
+                "64": {
+                    "tag_name": "Top rated",
+                    "bg_colour": "#ffe0db",
+                    "txt_colour": "#75312e",
+                    "tag_image": "https://akam.cdn.jdmagicbox.com/images/icons/iphone/toprated_3x.png?width=74"
+                },
+                "65": "#007A0C",
+                "66": [
+                    "1lsyeqk1fk",
+                    "cb4hr",
+                    "kxnsw7"
+                ],
+                "uqKey": "I5YplOJNjUP9M2djfy-Nw"
+            }
+        ],
+        "listSnippet": {},
+        "catalogueTabs": {},
+        "footerInfo": {},
+        "compInfo": {},
+        "searchId": "2129fd78e86d6cbad28dfd41ed3fb126e43998e8da88b1d9959b3d5837d5e724",
+        "jdmid": "",
+        "popCity": "",
+        "autoRedirect": {
+            "code": 0
+        },
+        "dHash": "B0LVf3YX9mvqICOZftqNX",
+        "status": {
+            "c": 1,
+            "msg": "parsed successfully"
+        }
+    },
+    "🚀": "1.860ms"
+}
