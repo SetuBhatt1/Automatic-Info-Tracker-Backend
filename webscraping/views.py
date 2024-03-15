@@ -81,3 +81,27 @@ def get_all_tiffins(request):
 
     # Return the list of tiffins as JSON
     return JsonResponse(tiffins_list, safe=False)
+
+def get_all_pgs(request):
+    url = "mongodb+srv://mypro7610:setuanu123@cluster0.qwsaugc.mongodb.net/?retryWrites=true&w=majority"
+
+    client = pymongo.MongoClient(url)
+    db = client["WebScrapingData"]
+    collection = db["PgData"]
+
+    # Fetch all documents from the collection
+    pgs = collection.find()
+    pgs_list = list(pgs)
+
+    client.close()
+
+    # Convert ObjectId to string and replace NaN values with null
+    for pg in pgs_list:
+        pg["_id"] = str(pg["_id"])
+        for key, value in pg.items():
+            if isinstance(value, float) and isnan(value):
+                pg[key] = None  # Replace NaN with None
+
+    # Return the list of tiffins as JSON
+    return JsonResponse(pgs_list, safe=False)
+

@@ -30,6 +30,7 @@ db = client['WebScrapingData']
 insert_data_from_csv(r"webscraping\data\girls_hostel.csv", "GirlsHostel")
 insert_data_from_csv(r"webscraping\data\boys_hostel.csv", "BoysHostel")
 insert_data_from_csv(r"webscraping\data\tiffin.csv", "Tiffin")
+insert_data_from_csv(r"webscraping\data\pgs.csv", "PgData")
 
 # Close the MongoDB connection
 client.close()
