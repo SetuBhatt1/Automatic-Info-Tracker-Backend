@@ -27,9 +27,9 @@ client = pymongo.MongoClient(url)
 db = client['WebScrapingData']
 
 # Insert data from CSV files into MongoDB collections
-insert_data_from_csv(r"C:\Users\Shetu\Desktop\final sdp backend\Authentication\webscraping\data\girls_hostel.csv", "GirlsHostel")
-insert_data_from_csv(r"C:\Users\Shetu\Desktop\final sdp backend\Authentication\webscraping\data\boys_hostel.csv", "BoysHostel")
-insert_data_from_csv(r"C:\Users\Shetu\Desktop\final sdp backend\Authentication\webscraping\data\tiffin.csv", "Tiffin")
+insert_data_from_csv(r"webscraping\data\girls_hostel.csv", "GirlsHostel")
+insert_data_from_csv(r"webscraping\data\boys_hostel.csv", "BoysHostel")
+insert_data_from_csv(r"webscraping\data\tiffin.csv", "Tiffin")
 
 # Close the MongoDB connection
 client.close()
