@@ -1,6 +1,6 @@
 import pymongo
 
-url = 'mongodb+srv://bansetu1:bansetu1@cluster0.xkk78vz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+url = 'mongodb+srv://mypro7610:setuanu123@cluster0.qwsaugc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 client = pymongo.MongoClient(url)
-db = client['HostelData']
+db = client['WebScrapingData']

@@ -4,7 +4,7 @@ from .models import tiffin_collection
 
 
 def index(request):
-    return HttpResponse("<h1>App is running</h1>")
+    return HttpResponse("<h1>Service Page</h1>")
 
 
 def add_tiffin(request):
@@ -15,7 +15,7 @@ def add_tiffin(request):
 
 def get_all_tiffins(request):
     tiffins = tiffin_collection.find()
-    returns(tiffins)
+    return HttpResponse(tiffins)
 
 
 def get_hostels_data(request):
