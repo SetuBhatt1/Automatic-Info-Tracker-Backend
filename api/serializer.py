@@ -32,11 +32,16 @@ from api.models import User
 from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
 
+from rest_framework import serializers
+from django.contrib.auth.password_validation import validate_password
+from .models import User
+
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, required=True, validators=[validate_password])
     password2 = serializers.CharField(write_only=True, required=True)
     first_name = serializers.CharField(max_length=100)
     last_name = serializers.CharField(max_length=100)
+    email = serializers.EmailField(validators=[UniqueValidator(queryset=User.objects.all())])
 
     class Meta:
         model = User
@@ -44,7 +49,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 
     def validate(self, attrs):
         if attrs['password'] != attrs['password2']:
-            raise serializers.ValidationError({"password": "Password fields didn't match."})
+            raise serializers.ValidationError({"password": "Passwords do not match."})
 
         return attrs
 
@@ -55,8 +60,6 @@ class RegisterSerializer(serializers.ModelSerializer):
             first_name=validated_data['first_name'],
             last_name=validated_data['last_name']
         )
-
         user.set_password(validated_data['password'])
         user.save()
-
         return user

@@ -57,9 +57,9 @@ class RegisterView(APIView):
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
+        else:
+            print(serializer.errors)  # Check this in your Django console
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 class LoginView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
 
