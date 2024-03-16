@@ -11,26 +11,79 @@ from rest_framework import generics
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .serializer import RegisterSerializer
+from django.core.mail import send_mail
+from django.contrib.auth.tokens import PasswordResetTokenGenerator
+from django.utils.encoding import force_bytes, force_str
+from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
+from django.template.loader import render_to_string
+from django.conf import settings
+from django.http import JsonResponse
+from rest_framework.views import APIView
+from rest_framework import status
+from rest_framework_simplejwt.views import TokenObtainPairView
+
+
+class ForgotPasswordView(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        user = User.objects.filter(email=email).first()
+
+        if user:
+            token_generator = PasswordResetTokenGenerator()
+            token = token_generator.make_token(user)
+
+            uidb64 = urlsafe_base64_encode(force_bytes(user.pk))
+            reset_url = f"{settings.FRONTEND_URL}/reset-password/{uidb64}/{token}/"
+
+            subject = "Password Reset Request"
+            message = render_to_string('email/password_reset_email.html', {
+                'user': user,
+                'reset_url': reset_url,
+            })
+
+            send_mail(subject, message, settings.EMAIL_HOST_USER, [email])
+            return JsonResponse({'message': 'Password reset email sent.'}, status=status.HTTP_200_OK)
+        else:
+            return JsonResponse({'error': 'User not found.'}, status=status.HTTP_404_NOT_FOUND)
+
+
+class RegisterView(APIView):
+    def post(self, request):
+        serializer = RegisterSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class LoginView(TokenObtainPairView):
+    serializer_class = MyTokenObtainPairSerializer
 
 
 class MyTokenObtainPairView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
 
 
-class RegisterView(generics.CreateAPIView):
-    queryset = User.objects.all()
-    permission_classes = (AllowAny,)
-    serializer_class = RegisterSerializer
+# class RegisterView(generics.CreateAPIView):
+#     queryset = User.objects.all()
+#     permission_classes = (AllowAny,)
+#     serializer_class = RegisterSerializer
 
 
 # Get All Routes
 
-@api_view(['GET'])
+@api_view(['GET','POST'])
 def getRoutes(request):
     routes = [
         '/api/token/',
         '/api/register/',
         '/api/token/refresh/'
+        'api/login',
+        'api/register'
     ]
     return Response(routes)
 
