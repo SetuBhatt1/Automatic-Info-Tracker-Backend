@@ -105,4 +105,17 @@ class Vendor(models.Model):
         ('T', 'Tiffin')
     ]
     id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=100, default="Name")
+    email = models.EmailField(default="Email")
+    password = models.CharField(max_length=100, default="Password")
+    phone = models.CharField(max_length=15, default="Phone")
     type_of_business = models.CharField(max_length=2, choices=select_business)
+
+
+class Student(models.Model):
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=100, default="Name")
+    email = models.EmailField(default="Email")
+    password = models.CharField(max_length=100, default="Password")
+    phone = models.CharField(max_length=15, default="Phone")
+    university_name = models.CharField(max_length=200)
