@@ -89,3 +89,10 @@ class ContactUs(models.Model):
     full_name = models.CharField(max_length=100, default="Full Name")
     email = models.EmailField(default="Email")
     message = models.TextField(default="Message")
+
+
+class Review(models.Model):
+    id = models.AutoField(primary_key=True)
+    experience = models.TextField(default="Experience")
+    photos = models.ImageField(upload_to='images/')
+    rating = models.FloatField()
