@@ -96,3 +96,13 @@ class Review(models.Model):
     experience = models.TextField(default="Experience")
     photos = models.ImageField(upload_to='images/')
     rating = models.FloatField()
+
+
+class Vendor(models.Model):
+    select_business = [
+        ('H', 'Hostel'),
+        ('Pg', 'Pg'),
+        ('T', 'Tiffin')
+    ]
+    id = models.AutoField(primary_key=True)
+    type_of_business = models.CharField(max_length=2, choices=select_business)
