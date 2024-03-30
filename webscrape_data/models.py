@@ -1,10 +1,7 @@
 from django.db import models
-from db_connection import db
-
-# using db, we can register our first model
-tiffin_collection = db["Tiffin"]
 
 
+# Create your models here.
 
 class HostelPgCommon(models.Model):
     room_type_choices = [
@@ -62,5 +59,3 @@ class GirlsPg(HostelPgCommon):
 
 class BoysPg(HostelPgCommon):
     pass
-
-

@@ -13,7 +13,8 @@ from datetime import timedelta
 from pathlib import Path
 import pymongo
 
-client = pymongo.MongoClient("mongodb+srv://mypro:setuanu123@cluster0.kyb2gaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = pymongo.MongoClient(
+    "mongodb+srv://mypro:setuanu123@cluster0.kyb2gaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,15 +28,18 @@ SECRET_KEY = 'django-insecure-15c4f*p1_yzc8mr$#6axsqby-xax$gp=lx&ny&+6d0)ax8qjhp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*']
 
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
 CORS_ALLOW_CREDENTIALS = True
 
+FRONTEND_URL = ''
+
 # Application definition
 
 INSTALLED_APPS = [
+    # 'anymail',
     'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -45,10 +49,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api',
     'webscraping',
+    'webscrape_data',
     'rest_framework',
     'rest_framework_simplejwt.token_blacklist',
     'corsheaders',
-
 ]
 
 MIDDLEWARE = [
@@ -101,7 +105,6 @@ DATABASES = {
     #     }
     # }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -175,5 +178,6 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOWED_ORIGINS=['http://localhost:5173']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173']
 AUTH_USER_MODEL = 'api.User'
+

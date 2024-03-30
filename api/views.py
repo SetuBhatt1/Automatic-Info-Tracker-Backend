@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import JsonResponse
+import requests
 from api.models import User
 
 from api.serializer import MyTokenObtainPairSerializer, RegisterSerializer
@@ -21,10 +21,17 @@ from django.utils.encoding import force_bytes, force_str
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.template.loader import render_to_string
 from django.conf import settings
-from django.http import JsonResponse
 from rest_framework.views import APIView
 from rest_framework import status
 from rest_framework_simplejwt.views import TokenObtainPairView
+
+from django.core.mail import send_mail
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+from django.conf import settings
+from django.core.mail import EmailMessage
+
+import mailtrap as mt
 
 
 class ForgotPasswordView(APIView):
@@ -60,6 +67,8 @@ class RegisterView(APIView):
         else:
             print(serializer.errors)  # Check this in your Django console
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
 class LoginView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
 
@@ -76,7 +85,7 @@ class MyTokenObtainPairView(TokenObtainPairView):
 
 # Get All Routes
 
-@api_view(['GET','POST'])
+@api_view(['GET', 'POST'])
 def getRoutes(request):
     routes = [
         '/api/token/',
@@ -99,3 +108,4 @@ def testEndPoint(request):
         data = f'Congratulation your API just responded to POST request with text: {text}'
         return Response({'response': data}, status=status.HTTP_200_OK)
     return Response({}, status.HTTP_400_BAD_REQUEST)
+
