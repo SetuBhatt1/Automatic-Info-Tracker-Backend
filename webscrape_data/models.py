@@ -66,6 +66,10 @@ class Tiffin(models.Model):
         ('Y', 'Yes'),
         ('N', 'No')
     ]
+    veg_nonveg_choices = [
+        ('V', 'Veg'),
+        ('NV', 'Non-Veg')
+    ]
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100, default="Name")
     email = models.EmailField(default="Email")
@@ -73,7 +77,15 @@ class Tiffin(models.Model):
     address = models.TextField(max_length=150, default="Address")
     longitude = models.DecimalField(max_digits=10, decimal_places=8, default=0.0)
     latitude = models.DecimalField(max_digits=10, decimal_places=8, default=0.0)
+    type_of_food = models.CharField(max_length=2, choices=veg_nonveg_choices, default="V")
     menu = models.FileField(upload_to='pdfs/')
-    delivers_to_sp_loc = models.CharField(max_length=1, choices=yes_no_choices, default="Y")
+    delivers_to_loc = models.TextField(max_length=150, default="Delivering Location")
     OpensAt = models.TimeField()
     ClosesAt = models.TimeField()
+
+
+class ContactUs(models.Model):
+    id = models.AutoField(primary_key=True)
+    full_name = models.CharField(max_length=100, default="Full Name")
+    email = models.EmailField(default="Email")
+    message = models.TextField(default="Message")
