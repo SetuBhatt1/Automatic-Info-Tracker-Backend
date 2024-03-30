@@ -21,8 +21,8 @@ class HostelPgCommon(models.Model):
 
     name = models.CharField(max_length=100, default="Name")
     email = models.EmailField(default="Email")
-    phone = models.CharField(max_length=15, default="Email")
-    address = models.TextField(max_length=50, default="Address")
+    phone = models.CharField(max_length=15, default="Phone")
+    address = models.TextField(max_length=150, default="Address")
     room_type = models.CharField(max_length=1, choices=room_type_choices, default="N")
     room_shared = models.CharField(max_length=1, choices=yes_no_choices, default="Y")
     amenities = models.TextField(default="Amenities")
@@ -59,3 +59,21 @@ class GirlsPg(HostelPgCommon):
 
 class BoysPg(HostelPgCommon):
     pass
+
+
+class Tiffin(models.Model):
+    yes_no_choices = [
+        ('Y', 'Yes'),
+        ('N', 'No')
+    ]
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=100, default="Name")
+    email = models.EmailField(default="Email")
+    phone = models.CharField(max_length=15, default="Phone")
+    address = models.TextField(max_length=150, default="Address")
+    longitude = models.DecimalField(max_digits=10, decimal_places=8, default=0.0)
+    latitude = models.DecimalField(max_digits=10, decimal_places=8, default=0.0)
+    menu = models.FileField(upload_to='pdfs/')
+    delivers_to_sp_loc = models.CharField(max_length=1, choices=yes_no_choices, default="Y")
+    OpensAt = models.TimeField()
+    ClosesAt = models.TimeField()
