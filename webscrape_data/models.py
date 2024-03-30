@@ -3,6 +3,20 @@ from django.db import models
 
 # Create your models here.
 
+class Vendor(models.Model):
+    select_business = [
+        ('H', 'Hostel'),
+        ('Pg', 'Pg'),
+        ('T', 'Tiffin')
+    ]
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=100, default="Name")
+    email = models.EmailField(default="Email")
+    password = models.CharField(max_length=100, default="Password")
+    phone = models.CharField(max_length=15, default="Phone")
+    type_of_business = models.CharField(max_length=2, choices=select_business)
+
+
 class HostelPgCommon(models.Model):
     room_type_choices = [
         ('A', 'AC Room'),
@@ -18,7 +32,7 @@ class HostelPgCommon(models.Model):
         ('B', 'Boy'),
         ('G', 'Girl')
     ]
-
+    vid = models.ForeignKey(Vendor, on_delete=models.CASCADE, default=0)
     name = models.CharField(max_length=100, default="Name")
     email = models.EmailField(default="Email")
     phone = models.CharField(max_length=15, default="Phone")
@@ -71,6 +85,7 @@ class Tiffin(models.Model):
         ('NV', 'Non-Veg')
     ]
     id = models.AutoField(primary_key=True)
+    vid = models.ForeignKey(Vendor, on_delete=models.CASCADE, default=0)
     name = models.CharField(max_length=100, default="Name")
     email = models.EmailField(default="Email")
     phone = models.CharField(max_length=15, default="Phone")
@@ -91,27 +106,6 @@ class ContactUs(models.Model):
     message = models.TextField(default="Message")
 
 
-class Review(models.Model):
-    id = models.AutoField(primary_key=True)
-    experience = models.TextField(default="Experience")
-    photos = models.ImageField(upload_to='images/')
-    rating = models.FloatField()
-
-
-class Vendor(models.Model):
-    select_business = [
-        ('H', 'Hostel'),
-        ('Pg', 'Pg'),
-        ('T', 'Tiffin')
-    ]
-    id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=100, default="Name")
-    email = models.EmailField(default="Email")
-    password = models.CharField(max_length=100, default="Password")
-    phone = models.CharField(max_length=15, default="Phone")
-    type_of_business = models.CharField(max_length=2, choices=select_business)
-
-
 class Student(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100, default="Name")
@@ -119,3 +113,11 @@ class Student(models.Model):
     password = models.CharField(max_length=100, default="Password")
     phone = models.CharField(max_length=15, default="Phone")
     university_name = models.CharField(max_length=200)
+
+
+class Review(models.Model):
+    id = models.AutoField(primary_key=True)
+    sid = models.ForeignKey(Student, on_delete=models.CASCADE, default=0)
+    experience = models.TextField(default="Experience")
+    photos = models.ImageField(upload_to='images/')
+    rating = models.FloatField()
