@@ -96,39 +96,36 @@ class VendorListCreateAPIView(APIView):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+    @staticmethod
+    def get_object(pk):
+        try:
+            return Vendor.objects.get(pk=pk)
+        except Vendor.DoesNotExist:
+            return None
 
-def get_object(self, pk):
-    try:
-        return Vendor.objects.get(pk=pk)
-    except Vendor.DoesNotExist:
-        return None
-
-
-def get(self, request, pk):
-    vendor = self.get_object(pk)
-    if vendor:
-        serializer = VendorSerializer(vendor)
-        return Response(serializer.data)
-    return Response({'error': 'Vendor not found'}, status=status.HTTP_404_NOT_FOUND)
-
-
-def put(self, request, pk):
-    vendor = self.get_object(pk)
-    if vendor:
-        serializer = VendorSerializer(vendor, data=request.data)
-        if serializer.is_valid():
-            serializer.save()
+    def get(self, request, pk):
+        vendor = self.get_object(pk)
+        if vendor:
+            serializer = VendorSerializer(vendor)
             return Response(serializer.data)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    return Response({'error': 'Vendor not found'}, status=status.HTTP_404_NOT_FOUND)
+        return Response({'error': 'Vendor not found'}, status=status.HTTP_404_NOT_FOUND)
 
+    def put(self, request, pk):
+        vendor = self.get_object(pk)
+        if vendor:
+            serializer = VendorSerializer(vendor, data=request.data)
+            if serializer.is_valid():
+                serializer.save()
+                return Response(serializer.data)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        return Response({'error': 'Vendor not found'}, status=status.HTTP_404_NOT_FOUND)
 
-def delete(self, request, pk):
-    vendor = self.get_object(pk)
-    if vendor:
-        vendor.delete()
-        return Response({'message': 'Vendor deleted successfully'})
-    return Response({'error': 'Vendor not found'}, status=status.HTTP_404_NOT_FOUND)
+    def delete(self, request, pk):
+        vendor = self.get_object(pk)
+        if vendor:
+            vendor.delete()
+            return Response({'message': 'Vendor deleted successfully'})
+        return Response({'error': 'Vendor not found'}, status=status.HTTP_404_NOT_FOUND)
 
 
 class GirlsHostelListCreateAPIView(APIView):
