@@ -375,13 +375,6 @@ class TiffinRetrieveUpdateDestroyAPIView(APIView):
         return Response({'error': 'Tiffin not found'}, status=status.HTTP_404_NOT_FOUND)
 
 
-# Dashboard View
-class DashboardView(APIView):
-    @staticmethod
-    def get(request):
-        # Logic to fetch and return dashboard content
-        dashboard_content = "Dashboard Content"  # Example content
-        return Response({'content': dashboard_content}, status=status.HTTP_200_OK)
 
 
 # Register Business View
