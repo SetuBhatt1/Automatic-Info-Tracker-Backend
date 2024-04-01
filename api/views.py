@@ -31,7 +31,6 @@ from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
 from django.core.mail import EmailMessage
 
-import mailtrap as mt
 
 
 class ForgotPasswordView(APIView):
