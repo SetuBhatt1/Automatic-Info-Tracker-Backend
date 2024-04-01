@@ -90,8 +90,10 @@ class VendorListCreateAPIView(APIView):
     #     return Response(serializer.data)
     @staticmethod
     def post(request):
+        print('hi')
         serializer = VendorSerializer(data=request.data)
         if serializer.is_valid():
+            print('saving vendor')
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
@@ -386,10 +388,27 @@ class DashboardView(APIView):
 class RegisterBusinessView(APIView):
     @staticmethod
     def post(request):
-        # Logic to handle registration form submission
-        # registration_form_data = request.data
-        # Process registration form data
-        return Response({'message': 'Business registered successfully'}, status=status.HTTP_201_CREATED)
+        registration_form_data = request.data
+        vendor_serializer = VendorSerializer(data=registration_form_data)
+        if vendor_serializer.is_valid():
+            vendor = vendor_serializer.save()
+
+            business_type = registration_form_data.get('type_of_business')
+            if business_type == 'H':
+                gender_type = registration_form_data.get('gender_type')
+                if gender_type == 'G':
+                    GirlsHostelSerializer(data=registration_form_data).save(vid=vendor)
+                elif gender_type == 'B':
+                    BoysHostelSerializer(data=registration_form_data).save(vid=vendor)
+            elif business_type == 'Pg':
+                pass
+            elif business_type == 'T': # Tiffin
+                TiffinSerializer(data=registration_form_data).save(vid=vendor)
+
+            return Response({'message': 'Business registered successfully'}, status=status.HTTP_201_CREATED)
+        else:
+            return Response(vendor_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 
 # Business Details View
