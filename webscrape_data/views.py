@@ -402,7 +402,7 @@ class RegisterBusinessView(APIView):
                     BoysHostelSerializer(data=registration_form_data).save(vid=vendor)
             elif business_type == 'Pg':
                 pass
-            elif business_type == 'T': # Tiffin
+            elif business_type == 'T':
                 TiffinSerializer(data=registration_form_data).save(vid=vendor)
 
             return Response({'message': 'Business registered successfully'}, status=status.HTTP_201_CREATED)
