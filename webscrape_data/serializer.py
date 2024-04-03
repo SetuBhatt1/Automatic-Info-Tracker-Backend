@@ -47,4 +47,4 @@ class StudentSerializer(serializers.ModelSerializer):
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
-        fields = '__all__'
+        fields = 'id', 'experience', 'rating', 'type', 'service_name'

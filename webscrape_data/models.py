@@ -116,8 +116,16 @@ class Student(models.Model):
 
 
 class Review(models.Model):
+    SERVICE_TYPES = [
+        ('H', 'Hostel'),
+        ('P', 'PG'),
+        ('T', 'Tiffin'),
+    ]
     id = models.AutoField(primary_key=True)
-    sid = models.ForeignKey(Student, on_delete=models.CASCADE, default=0)
+    # sid = models.ForeignKey(Student, on_delete=models.CASCADE, default=0)
     experience = models.TextField(default="Experience")
     photos = models.ImageField(upload_to='images/')
     rating = models.FloatField()
+    type = models.CharField(max_length=2, choices=SERVICE_TYPES, default='Hostel')
+    service_name = models.CharField(max_length=255, default="Service Name")
+
