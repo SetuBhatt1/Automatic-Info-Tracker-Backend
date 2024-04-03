@@ -375,8 +375,6 @@ class TiffinRetrieveUpdateDestroyAPIView(APIView):
         return Response({'error': 'Tiffin not found'}, status=status.HTTP_404_NOT_FOUND)
 
 
-
-
 # Register Business View
 class RegisterBusinessView(APIView):
     @staticmethod
@@ -401,7 +399,6 @@ class RegisterBusinessView(APIView):
             return Response({'message': 'Business registered successfully'}, status=status.HTTP_201_CREATED)
         else:
             return Response(vendor_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
 
 
 # Business Details View
@@ -469,9 +466,18 @@ class ReviewCreateView(APIView):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+
 class StudentListCreateAPIView(BaseAPIView):
     model = Student
     serializer_class = StudentSerializer
+
+
+class ReviewSearchView(APIView):
+    def get(self, request, *args, **kwargs):
+        query = request.GET.get('q', '')
+        reviews = Review.objects.filter(service_name__icontains=query)
+        serializer = ReviewSerializer(reviews, many=True)
+        return Response(serializer.data)
 
 
 class StudentRetrieveUpdateDestroyAPIView(BaseAPIView):
