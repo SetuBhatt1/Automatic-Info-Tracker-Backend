@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
     path('service/', include('webscrape_data.urls')),
+    path('data/', include('webscraping.urls')),
     path('data/', include('webscraping.urls'))
 ]
