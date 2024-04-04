@@ -453,6 +453,19 @@ class RegisterBusinessView(APIView):
                     else:
                         return Response(boys_hostel_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             elif business_type == 'Pg':
+                gender_type = registration_form_data.get('for_gender')
+                if gender_type == 'G':
+                    girls_pg_serializer = GirlsHostelSerializer(data=registration_form_data, partial=True)
+                    if girls_pg_serializer.is_valid():
+                        girls_pg_serializer.save(vid=vendor)
+                    else:
+                        return Response(girls_pg_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+                elif gender_type == 'B':
+                    boys_pg_serializer = BoysHostelSerializer(data=registration_form_data, partial=True)
+                    if boys_pg_serializer.is_valid():
+                        boys_pg_serializer.save(vid=vendor)
+                    else:
+                        return Response(boys_pg_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
                 pass
             elif business_type == 'T':
                 tiffin_serializer = TiffinSerializer(data=registration_form_data)
