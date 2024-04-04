@@ -33,6 +33,10 @@ class BoysPgSerializer(serializers.ModelSerializer):
 
 
 class TiffinSerializer(serializers.ModelSerializer):
+    menu = serializers.FileField(required=False)
+    longitude = serializers.DecimalField(max_digits=10, decimal_places=8, required=False)
+    latitude = serializers.DecimalField(max_digits=10, decimal_places=8, required=False)
+
     class Meta:
         model = Tiffin
         fields = '__all__'
@@ -48,4 +52,3 @@ class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
         fields = 'id', 'experience', 'rating', 'type', 'service_name'
-
