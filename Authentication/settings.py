@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-15c4f*p1_yzc8mr$#6axsqby-xax$gp=lx&ny&+6d0)ax8qjhp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*','.vercel.app']
 
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
@@ -181,3 +181,4 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = ['http://localhost:5173']
 AUTH_USER_MODEL = 'api.User'
 
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
