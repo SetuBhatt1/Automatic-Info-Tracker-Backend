@@ -179,6 +179,56 @@ class GirlsHostelRetrieveUpdateDestroyAPIView(APIView):
         return Response({'error': 'Girls hostel not found'}, status=status.HTTP_404_NOT_FOUND)
 
 
+class BoysPgListAPIView(APIView):
+    def get(self, request):
+        pgs = BoysPg.objects.all()
+        serializer = BoysPgSerializer(pgs, many=True)
+        data = serializer.data
+        for pg in data:
+            pg['detail_url'] = reverse('boys-pg-detail', kwargs={'pk': pg['id']})
+        return Response(data)
+
+
+class TiffinListAPIView(APIView):
+    def get(self, request):
+        tiffins = Tiffin.objects.all()
+        serializer = TiffinSerializer(tiffins, many=True)
+        data = serializer.data
+        for tiffin in data:
+            tiffin['detail_url'] = reverse('tiffin-detail', kwargs={'pk': tiffin['id']})
+        return Response(data)
+
+
+class GirlsHostelListAPIView(APIView):
+    def get(self, request):
+        hostels = GirlsHostel.objects.all()
+        serializer = GirlsHostelSerializer(hostels, many=True)
+        data = serializer.data
+        for hostel in data:
+            hostel['detail_url'] = reverse('girls-hostel-detail', kwargs={'pk': hostel['id']})
+        return Response(data)
+
+
+class GirlsPgListAPIView(APIView):
+    def get(self, request):
+        pgs = GirlsPg.objects.all()
+        serializer = GirlsPgSerializer(pgs, many=True)
+        data = serializer.data
+        for pg in data:
+            pg['detail_url'] = reverse('girls-pg-detail', kwargs={'pk': pg['id']})
+        return Response(data)
+
+
+class BoysHostelListAPIView(APIView):
+    def get(self, request):
+        hostels = BoysHostel.objects.all()
+        serializer = BoysHostelSerializer(hostels, many=True)
+        data = serializer.data
+        for hostel in data:
+            hostel['detail_url'] = reverse('boys-hostel-detail', kwargs={'pk': hostel['id']})
+        return Response(data)
+
+
 class BoysHostelListCreateAPIView(APIView):
     @staticmethod
     def get(request):
@@ -574,7 +624,6 @@ def test_rating_and_reviews_endpoint(request, vendor_id):
         # Perform GET request to rating and reviews view for a specific vendor
         response = client.get(f'/business/{vendor_id}/rating-reviews/')
         return JsonResponse({'response': response.data})
-
 
 # class AllBusinessesView(APIView):
 #     def get(self, request):
