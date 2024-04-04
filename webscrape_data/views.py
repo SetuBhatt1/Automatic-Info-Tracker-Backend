@@ -433,6 +433,24 @@ class ReviewListCreateAPIView(BaseAPIView):
     serializer_class = ReviewSerializer
 
 
+# class AllBusinessesView(APIView):
+#     def get(self, request):
+#         # Fetch all businesses from each model
+#         girls_hostels = GirlsHostel.objects.all()
+#         boys_hostels = BoysHostel.objects.all()
+#         girls_pgs = GirlsPg.objects.all()
+#         boys_pgs = BoysPg.objects.all()
+#         tiffins = Tiffin.objects.all()
+#
+#         # Combine all businesses into a single list
+#         all_businesses = list(girls_hostels) + list(boys_hostels) + list(girls_pgs) + list(boys_pgs) + list(tiffins)
+#         print(all_businesses)
+#         # Serialize the businesses
+#         serializer = VendorSerializer(all_businesses, many=True)
+#
+#         return Response(serializer.data, status=status.HTTP_200_OK)
+
+
 class ReviewRetrieveUpdateDestroyAPIView(BaseAPIView):
     model = Review
     serializer_class = ReviewSerializer
@@ -542,3 +560,21 @@ def test_rating_and_reviews_endpoint(request, vendor_id):
         # Perform GET request to rating and reviews view for a specific vendor
         response = client.get(f'/business/{vendor_id}/rating-reviews/')
         return JsonResponse({'response': response.data})
+
+
+# class AllBusinessesView(APIView):
+#     def get(self, request):
+#         # Fetch all businesses from each model
+#         girls_hostels = GirlsHostel.objects.all()
+#         boys_hostels = BoysHostel.objects.all()
+#         girls_pgs = GirlsPg.objects.all()
+#         boys_pgs = BoysPg.objects.all()
+#         tiffins = Tiffin.objects.all()
+#
+#         # Combine all businesses into a single list
+#         all_businesses = list(girls_hostels) + list(boys_hostels) + list(girls_pgs) + list(boys_pgs) + list(tiffins)
+#
+#         # Serialize the businesses
+#         serializer = BusinessSerializer(all_businesses, many=True)
+#
+#         return Response(serializer.data)
