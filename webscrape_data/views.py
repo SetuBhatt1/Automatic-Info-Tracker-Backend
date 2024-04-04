@@ -390,30 +390,30 @@ class RegisterBusinessView(APIView):
             if business_type == 'H':
                 gender_type = registration_form_data.get('for_gender')
                 if gender_type == 'G':
-                    girls_hostel_serializer = GirlsHostelSerializer(data=registration_form_data)
+                    girls_hostel_serializer = GirlsHostelSerializer(data=registration_form_data, partial=True)
                     if girls_hostel_serializer.is_valid():
                         girls_hostel_serializer.save(vid=vendor)
                     else:
                         return Response(girls_hostel_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
                 elif gender_type == 'B':
-                    boys_hostel_serializer = BoysHostelSerializer(data=registration_form_data)
+                    boys_hostel_serializer = BoysHostelSerializer(data=registration_form_data, partial=True)
                     if boys_hostel_serializer.is_valid():
                         boys_hostel_serializer.save(vid=vendor)
                     else:
                         return Response(boys_hostel_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             elif business_type == 'Pg':
+                # Placeholder for handling PG business type
                 pass
             elif business_type == 'T':
-                tiffin_serializer = TiffinSerializer(data=registration_form_data)
+                tiffin_serializer = TiffinSerializer(data=registration_form_data, partial=True)
                 if tiffin_serializer.is_valid():
                     tiffin_serializer.save(vid=vendor)
                 else:
                     return Response(tiffin_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-            return Response({'message': 'Business registered successfully'}, status=status.HTTP_201_CREATED)
+            return Response({'message': 'Business registered successfully', 'vendor_id': vendor.id}, status=status.HTTP_201_CREATED)
         else:
             return Response(vendor_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
 
 # Business Details View
 class BusinessDetailsView(APIView):

@@ -9,12 +9,26 @@ class VendorSerializer(serializers.ModelSerializer):
 
 
 class GirlsHostelSerializer(serializers.ModelSerializer):
+    rating = serializers.FloatField(required=False)
+    review = serializers.CharField(required=False)
+    total_reviews = serializers.IntegerField(required=False)
+    thumbnail = serializers.URLField(required=False)
+    images = serializers.CharField(required=False)
+    longitude = serializers.DecimalField(max_digits=10, decimal_places=8, required=False)
+    latitude = serializers.DecimalField(max_digits=10, decimal_places=8, required=False)
     class Meta:
         model = GirlsHostel
         fields = '__all__'
 
 
 class BoysHostelSerializer(serializers.ModelSerializer):
+    rating = serializers.FloatField(required=False)
+    review = serializers.CharField(required=False)
+    total_reviews = serializers.IntegerField(required=False)
+    thumbnail = serializers.URLField(required=False)
+    images = serializers.CharField(required=False)
+    longitude = serializers.DecimalField(max_digits=10, decimal_places=8, required=False)
+    latitude = serializers.DecimalField(max_digits=10, decimal_places=8, required=False)
     class Meta:
         model = BoysHostel
         fields = '__all__'
