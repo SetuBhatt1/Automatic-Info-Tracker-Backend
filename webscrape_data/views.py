@@ -376,6 +376,7 @@ class TiffinRetrieveUpdateDestroyAPIView(APIView):
 
 
 # Register Business View
+
 class RegisterBusinessView(APIView):
     @staticmethod
     def post(request):
@@ -385,16 +386,29 @@ class RegisterBusinessView(APIView):
             vendor = vendor_serializer.save()
 
             business_type = registration_form_data.get('type_of_business')
+
             if business_type == 'H':
-                gender_type = registration_form_data.get('gender_type')
+                gender_type = registration_form_data.get('for_gender')
                 if gender_type == 'G':
-                    GirlsHostelSerializer(data=registration_form_data).save(vid=vendor)
+                    girls_hostel_serializer = GirlsHostelSerializer(data=registration_form_data)
+                    if girls_hostel_serializer.is_valid():
+                        girls_hostel_serializer.save(vid=vendor)
+                    else:
+                        return Response(girls_hostel_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
                 elif gender_type == 'B':
-                    BoysHostelSerializer(data=registration_form_data).save(vid=vendor)
+                    boys_hostel_serializer = BoysHostelSerializer(data=registration_form_data)
+                    if boys_hostel_serializer.is_valid():
+                        boys_hostel_serializer.save(vid=vendor)
+                    else:
+                        return Response(boys_hostel_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             elif business_type == 'Pg':
                 pass
             elif business_type == 'T':
-                TiffinSerializer(data=registration_form_data).save(vid=vendor)
+                tiffin_serializer = TiffinSerializer(data=registration_form_data)
+                if tiffin_serializer.is_valid():
+                    tiffin_serializer.save(vid=vendor)
+                else:
+                    return Response(tiffin_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
             return Response({'message': 'Business registered successfully'}, status=status.HTTP_201_CREATED)
         else:
