@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from datetime import timedelta
 from pathlib import Path
 import pymongo
+import dj_database_url
 
 client = pymongo.MongoClient(
     "mongodb+srv://mypro:setuanu123@cluster0.kyb2gaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -26,10 +27,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-15c4f*p1_yzc8mr$#6axsqby-xax$gp=lx&ny&+6d0)ax8qjhp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # '.vercel.app'
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'vercel.app','*']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'vercel.app', '*']
 
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
@@ -90,21 +91,43 @@ WSGI_APPLICATION = 'Authentication.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     },
+#
+#     # 'mongodb': {
+#     #     'ENGINE': 'djongo',
+#     #     'NAME': 'WebScrapingData',
+#     #     'CLIENT': {
+#     #         'host': 'cluster0.qwsaugc.mongodb.net',
+#     #         'port': 27017,
+#     #         'username': 'mypro7610',
+#     #         'password': 'setuanu123',
+#     #     }
+#     # }
+# }
+#
+# # DATABASES = {
+# #     'default': {
+# #         'ENGINE': 'djongo',
+# #         'NAME': 'WebScrapingData',
+# #         'CLIENT': {
+# #             'host': 'cluster0.qwsaugc.mongodb.net',
+# #             'username': 'mypro7610',
+# #             'password': 'setuanu123', # Replace <password> with your actual password
+# #             'authMechanism': 'SCRAM-SHA-1',
+# #             'ssl': True,
+# #             'retryWrites': True,
+# #             'w': 'majority',
+# #             'appName': 'Cluster0',
+# #         }
+# #     }
+# # }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    },
-    # 'mongodb': {
-    #     'ENGINE': 'djongo',
-    #     'NAME': 'WebScrapingData',
-    #     'CLIENT': {
-    #         'host': 'cluster0.qwsaugc.mongodb.net',
-    #         'port': 27017,
-    #         'username': 'mypro7610',
-    #         'password': 'setuanu123',
-    #     }
-    # }
+    'default': dj_database_url.parse('postgres://sdp_db_user:JS7uORTIGGMx09Hq1wquPwtZXXGaLb2R@dpg-con0jca1hbls73fahgmg-a.oregon-postgres.render.com/sdp_db')
 }
 
 # Password validation
